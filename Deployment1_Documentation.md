@@ -114,7 +114,7 @@ Continue to click `Next` until you see the page with `Submit`.
 
 Click `Submit`.
 
-If configured properly, the health status should say "OK". If not, navigate to the Elastic BeanStalk log tab and request the last 100 logs. Download and view the logs
+If configured properly, the health status should say "OK". If not, navigate to the Elastic BeanStalk log tab and request the last 100 logs. Download and view the logs, under `/var/log/web.stdout.log`.
 
 The health status could degrade for a number of reasons, such as availability zone issues. 
 
