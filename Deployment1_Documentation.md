@@ -1,7 +1,9 @@
 **GitHub**
 Create a new repository
 
-Upload files required for application to your GitHub repository.
+Under the tab `Add file`, select `Upload files`.
+
+Upload files from your local server to your GitHub repository.
 
 **Jenkins**
 Log into your Jenkins server. 
