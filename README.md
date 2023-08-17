@@ -1,5 +1,6 @@
-**GitHub**
+# Deployment 1
 
+**GitHub**
 - Create a new repository
 
 <img width="362" alt="Screen Shot 2023-08-15 at 6 32 58 PM" src="https://github.com/belindadunu/Deployment_1/assets/139175163/3d810d81-62ed-42db-97f7-59e42d5586b1">
@@ -9,7 +10,6 @@
 - Upload files from your local server to your GitHub repository.
 
 **Jenkins**
-
 - Log into your Jenkins server.
 
 <img width="1428" alt="Screen Shot 2023-08-15 at 6 44 07 PM" src="https://github.com/belindadunu/Deployment_1/assets/139175163/bf485f3d-f180-46f6-b5cd-1d1889c09bc7">
@@ -146,3 +146,4 @@ For faster deployment, and to avoid a file-size limit issue, zip up the files th
 
 <img width="1420" alt="Screen Shot 2023-08-17 at 8 54 11 AM" src="https://github.com/belindadunu/Deployment_1/assets/139175163/349674a0-fd26-451a-a30b-f7c143bf8e9f">
 
+![Kura_Deployment1 drawio (1)](https://github.com/belindadunu/Deployment_1/assets/139175163/a7147a37-0912-4af8-908c-103f296ecf7d)
