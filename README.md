@@ -2,7 +2,7 @@
 
 - Create a new repository
 
-- <img width="362" alt="Screen Shot 2023-08-15 at 6 32 58 PM" src="https://github.com/belindadunu/Deployment_1/assets/139175163/3d810d81-62ed-42db-97f7-59e42d5586b1">
+<img width="362" alt="Screen Shot 2023-08-15 at 6 32 58 PM" src="https://github.com/belindadunu/Deployment_1/assets/139175163/3d810d81-62ed-42db-97f7-59e42d5586b1">
 
 - Under the tab `Add file`, select `Upload files`.
 
@@ -12,13 +12,13 @@
 
 - Log into your Jenkins server.
 
-- <img width="1428" alt="Screen Shot 2023-08-15 at 6 44 07 PM" src="https://github.com/belindadunu/Deployment_1/assets/139175163/bf485f3d-f180-46f6-b5cd-1d1889c09bc7">
+<img width="1428" alt="Screen Shot 2023-08-15 at 6 44 07 PM" src="https://github.com/belindadunu/Deployment_1/assets/139175163/bf485f3d-f180-46f6-b5cd-1d1889c09bc7">
 
 - Go through the process of creating and running a Jenkins build for the application. This will allow us to test out our application for any bugs, syntax errors, etc., prior to us deploying it.
 
 - Go through the process of entering a name for your Jenkins build pipeline.
 
-- <img width="1366" alt="Screen Shot 2023-08-15 at 6 47 32 PM" src="https://github.com/belindadunu/Deployment_1/assets/139175163/930041ce-2a16-47e2-9b3d-644e6fe39271">
+<img width="1366" alt="Screen Shot 2023-08-15 at 6 47 32 PM" src="https://github.com/belindadunu/Deployment_1/assets/139175163/930041ce-2a16-47e2-9b3d-644e6fe39271">
 
 - On the `Configure` page, scroll down to `Pipeline`, and select `Pipeline script from SCM`.
 
@@ -52,12 +52,12 @@
 
 - You can look into your build and test logs, to see what happened during that run.
 
-- <img width="1366" alt="Screen Shot 2023-08-15 at 7 12 16 PM" src="https://github.com/belindadunu/Deployment_1/assets/139175163/de2c77dc-08bf-463c-99b0-89ba16d3ae63">
+<img width="1366" alt="Screen Shot 2023-08-15 at 7 12 16 PM" src="https://github.com/belindadunu/Deployment_1/assets/139175163/de2c77dc-08bf-463c-99b0-89ba16d3ae63">
 
 
 - If the pipeline is successful, download the application files from your repository and proceed to deploy to AWS ElasticBeanstalk.
 
-- <img width="1366" alt="Screen Shot 2023-08-15 at 7 49 31 PM" src="https://github.com/belindadunu/Deployment_1/assets/139175163/ab1b2ba7-97f4-481c-bd97-6062a88f88e0">
+<img width="1366" alt="Screen Shot 2023-08-15 at 7 49 31 PM" src="https://github.com/belindadunu/Deployment_1/assets/139175163/ab1b2ba7-97f4-481c-bd97-6062a88f88e0">
 
 **AWS Elastic BeanStalk:**
 
@@ -91,7 +91,7 @@ For faster deployment, and to avoid a file-size limit issue, zip up the files th
 
 - On the next page, click the `Role name` field and enter `Elastic-EC2`, then create the role.
 
-- <img width="855" alt="Screen Shot 2023-08-15 at 7 53 59 PM" src="https://github.com/belindadunu/Deployment_1/assets/139175163/c889b69f-e3c6-468e-b31f-3a8a325f7d84">
+<img width="855" alt="Screen Shot 2023-08-15 at 7 53 59 PM" src="https://github.com/belindadunu/Deployment_1/assets/139175163/c889b69f-e3c6-468e-b31f-3a8a325f7d84">
 
 - Navigate to the AWS Elastic BeanStalk console to create a new application. 
 
@@ -99,11 +99,11 @@ For faster deployment, and to avoid a file-size limit issue, zip up the files th
 
 - Give your application a name, and under the `Platform` Tab, select Python. We are telling ElasticBeanstalk that the application was developed and runs in Python.
 
-- <img width="863" alt="Screen Shot 2023-08-15 at 7 57 55 PM" src="https://github.com/belindadunu/Deployment_1/assets/139175163/e48f99ad-ad10-4c73-8a82-079b07b742b6">
+<img width="863" alt="Screen Shot 2023-08-15 at 7 57 55 PM" src="https://github.com/belindadunu/Deployment_1/assets/139175163/e48f99ad-ad10-4c73-8a82-079b07b742b6">
 
 - Specify the `Platform-Branch` to be even more detailed. Select `Python 3.9 running on 64bit Amazon Linux 2023`.
 
-- <img width="863" alt="Screen Shot 2023-08-15 at 7 57 59 PM" src="https://github.com/belindadunu/Deployment_1/assets/139175163/0607b112-90fe-40a8-9329-d4899763e2ef">
+<img width="863" alt="Screen Shot 2023-08-15 at 7 57 59 PM" src="https://github.com/belindadunu/Deployment_1/assets/139175163/0607b112-90fe-40a8-9329-d4899763e2ef">
 
 - Upload your application code from your local computer and select `v1` for the version label.
 
@@ -129,7 +129,7 @@ For faster deployment, and to avoid a file-size limit issue, zip up the files th
 
 - If configured properly, the health status should say `OK`. If not, navigate to your terminal, and request the last 100 logs. Download and view the logs, under `/var/log/web.stdout.log`.
 
-- <img width="841" alt="Screen Shot 2023-08-15 at 8 16 29 PM" src="https://github.com/belindadunu/Deployment_1/assets/139175163/eae82ec5-a934-4cfe-8369-40aa1107ddca">
+<img width="841" alt="Screen Shot 2023-08-15 at 8 16 29 PM" src="https://github.com/belindadunu/Deployment_1/assets/139175163/eae82ec5-a934-4cfe-8369-40aa1107ddca">
 
 - The health status could degrade for a number of reasons, such as availability zone issues. 
 
@@ -137,9 +137,12 @@ For faster deployment, and to avoid a file-size limit issue, zip up the files th
 
 - Once you see the issue in the logs, you can take action such as restarting the environment, re-creating it, trying a different AZ/Region, etc.
 
-- <img width="1159" alt="Screen Shot 2023-08-15 at 8 18 29 PM" src="https://github.com/belindadunu/Deployment_1/assets/139175163/f89eecde-82cb-489d-81cc-e4cc1000f755">
+<img width="1159" alt="Screen Shot 2023-08-15 at 8 18 29 PM" src="https://github.com/belindadunu/Deployment_1/assets/139175163/f89eecde-82cb-489d-81cc-e4cc1000f755">
 
 
 - Once the environment's health status says `OK`, you can select your Domain Name.
 
-- <img width="1159" alt="Screen Shot 2023-08-15 at 8 20 20 PM" src="https://github.com/belindadunu/Deployment_1/assets/139175163/7b677a16-bd40-457d-ac16-967a7e0f1565">
+<img width="1159" alt="Screen Shot 2023-08-15 at 8 20 20 PM" src="https://github.com/belindadunu/Deployment_1/assets/139175163/7b677a16-bd40-457d-ac16-967a7e0f1565">
+
+<img width="1420" alt="Screen Shot 2023-08-17 at 8 54 11 AM" src="https://github.com/belindadunu/Deployment_1/assets/139175163/349674a0-fd26-451a-a30b-f7c143bf8e9f">
+
